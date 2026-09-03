@@ -4,3 +4,12 @@ fetch('/navbar.html')
     .then(data => {
         document.getElementById('nav').innerHTML = data;
     });
+const bodyTag = document.getElementsByTagName('body');
+
+const DayNight = document.getElementsByClassName("time");
+
+function background(color){
+    bodyTag.style.backgroundColor = color
+}
+
+DayNight.addEventListerner("click",background("black"));

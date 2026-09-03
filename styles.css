@@ -1,8 +1,44 @@
+body{
+    background-color:white;
+}
+.nav{
+    width:auto;
+    height:60px;
+    background-color:black;
+
+    border-radius:6px;
+    padding-top:20px;
+    position:absolute;
+    top:-10px;
+}
 .nav-links {
     display: flex;
     gap: 2.5rem;
     list-style: none;
 }
+.nav-item { 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px; 
+  padding: 0 15px; /* Adds space inside the box instead of a fixed width */
+
+  background-color: rgb(46, 44, 44); 
+  color :whitesmoke;
+  border-radius: 5px; 
+  transition: background-color 0.3s ease;
+} 
+
+
+.nav-item:hover { 
+  background-color: darkslategray; 
+}
+.nav-item:active {
+    background-color:white;
+    color:black;
+}
+
 .nav-links a {
     text-decoration: none;
     color: var(--text-secondary);
@@ -39,4 +75,11 @@
     font-weight: 700;
     font-size: 1.25rem;
     letter-spacing: -0.5px;
+}
+#games_dropdown{
+    color:whitesmoke;
+    background-color:slategray;
+}
+#games_dropdown:hover{
+    background-color:gray;
 }
