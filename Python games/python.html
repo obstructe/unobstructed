@@ -1,0 +1,19 @@
+
+Html<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.11.0/brython.min.js"></script>
+</head>
+<body onload="brython()">
+    <script type="text/python">
+from browser import document, html
+
+def say_hello(event):
+    document <= html.P("Hello from Python in HTML!")
+
+document <= html.BUTTON("Click Me", Id="btn")
+document["btn"].bind("click", say_hello)
+    </script>
+</body>
+</html>
+
