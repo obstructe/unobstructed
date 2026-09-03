@@ -16,8 +16,8 @@ body{
     display: flex;
     gap: 2.5rem;
     list-style: none;
-    position:relative;
-    top:-30px;
+    position: relative;
+    top: -30px
 }
 .nav-item { 
 
