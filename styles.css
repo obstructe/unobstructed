@@ -89,3 +89,50 @@ body{
 #games_dropdown:hover{
     background-color:gray;
 }
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    border-radius: 15px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+ul.nav li {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+ul.nav li a:hover {
+    background-color: #111111;
+    border-radius: 15px;
+}
+
+ul li a.active {
+    background-color: #d1d1d1;
+    color: black;
+}
+
+ul.nav li a.active:hover {
+    background-color: #b6b6b6;
+}
+
+
+ul.dropdown-list{
+    display: none;
+}
